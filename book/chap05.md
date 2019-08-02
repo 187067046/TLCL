@@ -901,7 +901,7 @@ link, the link will continue to exist, but will point to nothing. In this case, 
 to be broken. In many implementations, the ls command will display broken links in a
 distinguishing color, such as red, to reveal their presence.
 
-一个符号链接指向一个文件，而且这个符号链接本身与其它的符号链接几乎没有区别。
+符号链接指向的文件与这个符号链接本身几乎没有区别。
 例如，如果你往一个符号链接里面写入东西，那么相关联的文件也被写入。然而，
 当你删除一个符号链接时，只有这个链接被删除，而不是文件自身。如果先于符号链接
 删除文件，这个链接仍然存在，但是不指向任何东西。在这种情况下，这个链接被称为
